@@ -9,16 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>thread</module>
         <module>ui</module>
+        <module>itg_thread</module>
+        <module>main</module>
     </modules>
-    <dependencies>
-        <dependency>
-            <groupId>com.itg</groupId>
-            <artifactId>ui</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 
 </project>

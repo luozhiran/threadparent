@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="main" />
+        <module name="itg_thread" />
         <module name="ui" />
-        <module name="thread" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thread" target="1.5" />
+      <module name="thread-demo" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
