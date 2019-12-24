@@ -9,6 +9,16 @@ public class Ui {
     private ArrayList<JButton> jButtonList = new ArrayList<JButton>();
 
 
+    public static void create(AbstractAction abstractAction){
+        Ui ui = new Ui();
+        JFrame jFrame = ui.initFrame("测试");
+        LayoutManager layoutManager = ui.getGridLayout(3, 3);
+        String[] str = {"开始", "暂停", "结束"};
+        JPanel panel = ui.getPanel(layoutManager, str);
+        ui.addClick(abstractAction);
+        ui.show(panel, jFrame);
+    }
+
     public JFrame initFrame(String frameName) {
         JFrame jFrame = new JFrame(frameName);
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989d97e3-c6d3-4cc9-868f-ba0800fbc4ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itg_thread/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itg_thread/src/main/java/thread/dir/InterruptDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/itg/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/main/java/itg/ui/SpringLayoutUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/main/java/itg/ui/factory/JFrameFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/itg/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/itg/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/main/java/itg/ui/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/main/java/itg/ui/Ui.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,6 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1577101192350</updated>
     </task>
+    <task id="LOCAL-00001" summary="jj">
+      <created>1577107864709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577107864710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +118,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jj" />
+    <option name="LAST_COMMIT_MESSAGE" value="jj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
