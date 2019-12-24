@@ -63,7 +63,7 @@ public class SpringLayoutUi {
         receiverScrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         parentPanel.add(receiverScrollPane);
         springLayout.putConstraint(SpringLayout.WEST, receiverScrollPane, Spring.constant(5), SpringLayout.EAST, leftLabel);
-        springLayout.putConstraint(SpringLayout.EAST, receiverScrollPane, Spring.constant(5), SpringLayout.EAST, parentPanel);
+        springLayout.putConstraint(SpringLayout.EAST, receiverScrollPane, Spring.constant(-5), SpringLayout.EAST, parentPanel);
         springLayout.putConstraint(SpringLayout.NORTH, receiverScrollPane, Spring.constant(5), SpringLayout.SOUTH, leftLabel);
 
 
@@ -77,7 +77,7 @@ public class SpringLayoutUi {
 
         springLayout.putConstraint(SpringLayout.NORTH, inputScrollPane, Spring.constant(5), SpringLayout.SOUTH, receiverScrollPane);
         springLayout.putConstraint(SpringLayout.WEST, inputScrollPane, Spring.constant(5), SpringLayout.EAST, leftLabel);
-        springLayout.putConstraint(SpringLayout.EAST, inputScrollPane, Spring.constant(5), SpringLayout.EAST, parentPanel);
+        springLayout.putConstraint(SpringLayout.EAST, inputScrollPane, Spring.constant(-5), SpringLayout.EAST, parentPanel);
         springLayout.putConstraint(SpringLayout.SOUTH, inputScrollPane, Spring.constant(-5), SpringLayout.SOUTH, parentPanel);
 
         return jFrame;

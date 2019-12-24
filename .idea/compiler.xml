@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="main" />
         <module name="itg_thread" />
+        <module name="socketservices" />
         <module name="ui" />
       </profile>
     </annotationProcessing>
